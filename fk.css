@@ -1,3 +1,22 @@
-.para{
-    color: red;
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 67px;
+    background-color: orange;
+    color: #b61111;
+ 
+}
+
+.nav-fklogo{
+    height: 50px;
+    width: 80px;
+}
+
+.logo {
+background-image: url("https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_plus-055f80.svg");
+height: 50px;
 }
