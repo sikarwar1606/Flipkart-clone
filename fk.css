@@ -1,67 +1,145 @@
 * {
-    margin: 0;
+    margin: 0px;
     font-family: arial;
     border: border-box;
 }
 
 .navbar{
-    height: 48px;
+    border: 2px solid black;
+    height: 50px;
     width: 100%;
-    background-color:white;
-    border: none;
-    display: flex;
     justify-content: space-evenly;
-    
-}
-
-#fklogo{
     align-items: center;
+    display: flex;
+}
+
+.nav_fklogo{
+    height: 40px;
     width: 160px;
+    border: 2px solid black;
+}
+.nav_search{
     height: 40px;
-    justify-content: left;
+    width: 445px;
+    border: 2px solid black;
 }
-
-.nav-search{
-    background-color: aliceblue;
-}
-
-.button{
-    width: 44px;
-    height: 40px;
-    background-color: transparent;
-    border: none;
-    border-top-left-radius: 2px;
-    border-bottom-left-radius: 2px;
-}
-
-.fa-solid {
-    font-size: 25px;
-    color: white;
-    margin-right: 1px;
-    align-items: end;
-    color: rgb(56, 49, 49);
-}
-
-.account{
+.nav_account{
     height: 40px;
     width: 130px;
+    border: 2px solid black;
+}
+.nav_cart{
+    height: 40px;
+    width: 32px;
+    border: 2px solid black;
+}
+.nav_seller{
+    height: 40px;
+    width: 160px;
+    border: 2px solid black;
+}
+.nav_menu{
+    height: 40px;
+    width: 25px;
+    border: 2px solid black;
+}
+
+
+/* Styling for category */
+.category{
+    border: 2px solid rgb(246, 9, 9);
+    height: 126px;
+    width: 98%;
+    justify-content: space-evenly;
     align-items: center;
     display: flex;
-    background-color: beige;
-    margin-top: 3px;
+    margin-left: 1%;
+    margin-top: 5px;
+}
+
+.category_grocery{
+    height: 126px;
+    width: 122px;
+    border: 2px solid red;
+}
+.category_mobiles{
+    height: 126px;
+    width: 122px;
+    border: 2px solid red;
+}
+.category_fashion{
+    height: 126px;
+    width: 122px;
+    border: 2px solid red;
+}
+.category_electronics{
+    height: 126px;
+    width: 122px;
+    border: 2px solid red;
+}
+.category_homefurniture{
+    height: 126px;
+    width: 122px;
+    border: 2px solid red;
+}
+.category_appliances{
+    height: 126px;
+    width: 122px;
+    border: 2px solid red;
+}
+.category_travel{
+    height: 126px;
+    width: 122px;
+    border: 2px solid red;
+}
+.category_beauty{
+    height: 126px;
+    width: 145px;
+    border: 2px solid red;
+}
+.category_two_wheeler{
+    height: 126px;
+    width: 122px;
+    border: 2px solid red;
+}
+
+p{
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/* Styling for hero section */
+
+.hero-section{
+    border: 2px solid rgb(246, 9, 9);
+    height: 207px;
+    width: 98%;
     justify-content: space-evenly;
-    border-radius: .3rem;
+    align-items: center;
+    display: flex;
+    margin-left: 1%;
+    margin-top: 5px;
 }
 
-.fa-user{
-    font-size: 20px;
+.left-hero-button{
+    background-color: black;
+    height: 100px;
+    width: 50px;
+    align-items: center;
+    margin-right: 0%;
+    border-top-right-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
     
-}
 
-.search{
-    width: 400px;
-    height: 40px;
-    margin-left: 1px;
-    border: none;
-    background-color: aliceblue;
+}
+.right-hero-button{
+    background-color: black;
+    height: 100px;
+    width: 50px;
+    align-items: center;
+    margin-left: 95%;
+    border-top-left-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
+    
 }
