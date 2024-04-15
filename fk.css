@@ -1,22 +1,67 @@
 * {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: arial;
     border: border-box;
 }
 
 .navbar{
-    height: 67px;
-    background-color: orange;
-    color: #b61111;
- 
+    height: 48px;
+    width: 100%;
+    background-color:white;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    
 }
 
-.nav-fklogo{
-    height: 50px;
-    width: 80px;
+#fklogo{
+    align-items: center;
+    width: 160px;
+    height: 40px;
+    justify-content: left;
 }
 
-.logo {
-background-image: url("https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_plus-055f80.svg");
-height: 50px;
+.nav-search{
+    background-color: aliceblue;
+}
+
+.button{
+    width: 44px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.fa-solid {
+    font-size: 25px;
+    color: white;
+    margin-right: 1px;
+    align-items: end;
+    color: rgb(56, 49, 49);
+}
+
+.account{
+    height: 40px;
+    width: 130px;
+    align-items: center;
+    display: flex;
+    background-color: beige;
+    margin-top: 3px;
+    justify-content: space-evenly;
+    border-radius: .3rem;
+}
+
+.fa-user{
+    font-size: 20px;
+    
+}
+
+.search{
+    width: 400px;
+    height: 40px;
+    margin-left: 1px;
+    border: none;
+    background-color: aliceblue;
 }
