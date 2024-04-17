@@ -11,12 +11,16 @@
     justify-content: space-evenly;
     align-items: center;
     display: flex;
+<<<<<<< HEAD
     background-color:white;
+=======
+>>>>>>> 44deca7509fc94d665aeb34ec70f13357b9445c0
 }
 
 .nav_fklogo{
     height: 40px;
     width: 160px;
+<<<<<<< HEAD
     border: 2px solid none;
     background-image: url("https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_plus-055f80.svg");
 }
@@ -80,6 +84,24 @@
     display: flex;
     align-items: center;
     
+=======
+    border: 2px solid black;
+}
+.nav_search{
+    height: 40px;
+    width: 445px;
+    border: 2px solid black;
+}
+.nav_account{
+    height: 40px;
+    width: 130px;
+    border: 2px solid black;
+}
+.nav_cart{
+    height: 40px;
+    width: 32px;
+    border: 2px solid black;
+>>>>>>> 44deca7509fc94d665aeb34ec70f13357b9445c0
 }
 .nav_seller{
     height: 40px;
@@ -95,7 +117,11 @@
 
 /* Styling for category */
 .category{
+<<<<<<< HEAD
     border: none;
+=======
+    border: 2px solid rgb(246, 9, 9);
+>>>>>>> 44deca7509fc94d665aeb34ec70f13357b9445c0
     height: 126px;
     width: 98%;
     justify-content: space-evenly;
@@ -103,74 +129,117 @@
     display: flex;
     margin-left: 1%;
     margin-top: 5px;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 44deca7509fc94d665aeb34ec70f13357b9445c0
 }
 
 .category_grocery{
     height: 126px;
     width: 122px;
+<<<<<<< HEAD
     border: 2px solid none;
     
     
+=======
+    border: 2px solid red;
+>>>>>>> 44deca7509fc94d665aeb34ec70f13357b9445c0
 }
 .category_mobiles{
     height: 126px;
     width: 122px;
+<<<<<<< HEAD
     border: 2px solid none;
     
+=======
+    border: 2px solid red;
+>>>>>>> 44deca7509fc94d665aeb34ec70f13357b9445c0
 }
 .category_fashion{
     height: 126px;
     width: 122px;
+<<<<<<< HEAD
     border: 2px solid none;
     
+=======
+    border: 2px solid red;
+>>>>>>> 44deca7509fc94d665aeb34ec70f13357b9445c0
 }
 .category_electronics{
     height: 126px;
     width: 122px;
+<<<<<<< HEAD
     border: 2px solid none;
     
+=======
+    border: 2px solid red;
+>>>>>>> 44deca7509fc94d665aeb34ec70f13357b9445c0
 }
 .category_homefurniture{
     height: 126px;
     width: 122px;
+<<<<<<< HEAD
     border: 2px solid none;
    
+=======
+    border: 2px solid red;
+>>>>>>> 44deca7509fc94d665aeb34ec70f13357b9445c0
 }
 .category_appliances{
     height: 126px;
     width: 122px;
+<<<<<<< HEAD
     border: 2px solid none;
     
+=======
+    border: 2px solid red;
+>>>>>>> 44deca7509fc94d665aeb34ec70f13357b9445c0
 }
 .category_travel{
     height: 126px;
     width: 122px;
+<<<<<<< HEAD
     border: 2px solid none;
     
+=======
+    border: 2px solid red;
+>>>>>>> 44deca7509fc94d665aeb34ec70f13357b9445c0
 }
 .category_beauty{
     height: 126px;
     width: 145px;
+<<<<<<< HEAD
     border: 2px solid none;
     
+=======
+    border: 2px solid red;
+>>>>>>> 44deca7509fc94d665aeb34ec70f13357b9445c0
 }
 .category_two_wheeler{
     height: 126px;
     width: 122px;
+<<<<<<< HEAD
     border: 2px solid none;
     
+=======
+    border: 2px solid red;
+>>>>>>> 44deca7509fc94d665aeb34ec70f13357b9445c0
 }
 
 p{
     text-align: center;
     justify-content: center;
+<<<<<<< HEAD
     
 }
 
 img{
     
     margin-left: 20px;
+=======
+    margin-top: 100px;
+>>>>>>> 44deca7509fc94d665aeb34ec70f13357b9445c0
 }
 
 /* Styling for hero section */
