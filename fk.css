@@ -1,22 +1,209 @@
 * {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-family: arial;
     border: border-box;
 }
 
 .navbar{
-    height: 67px;
-    background-color: orange;
-    color: #b61111;
- 
-}
-
-.nav-fklogo{
+    border: 2px solid black;
     height: 50px;
-    width: 80px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    background-color:white;
 }
 
-.logo {
-background-image: url("https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_plus-055f80.svg");
-height: 50px;
+.nav_fklogo{
+    height: 40px;
+    width: 160px;
+    border: 2px solid none;
+    background-image: url("https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_plus-055f80.svg");
+}
+.nav_search{
+    height: 42px;
+    width: 750px;
+    border: none;
+    background-color: rgb(239, 239, 243);
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.magnify{
+    height: 40px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-solid{
+    font-size: 20px;
+    
+}
+
+.Search-box{
+    height:40px ;
+    width: 400px;
+    border: none;
+    background-color: rgb(239, 239, 243);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 20px;
+}
+
+.nav_account{
+    height: 40px;
+    width: 130px;
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+.user_name{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.account_icon{
+    display: flex;
+    align-items: center;
+    font-size: 20px ;
+    margin-left: 10px;
+}
+
+.nav_cart{
+    height: 40px;
+    width: 60px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    
+}
+.nav_seller{
+    height: 40px;
+    width: 160px;
+    border: 2px solid black;
+}
+.nav_menu{
+    height: 40px;
+    width: 25px;
+    border: 2px solid black;
+}
+
+
+/* Styling for category */
+.category{
+    border: none;
+    height: 126px;
+    width: 98%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    margin-left: 1%;
+    margin-top: 5px;
+    
+}
+
+.category_grocery{
+    height: 126px;
+    width: 122px;
+    border: 2px solid none;
+    
+    
+}
+.category_mobiles{
+    height: 126px;
+    width: 122px;
+    border: 2px solid none;
+    
+}
+.category_fashion{
+    height: 126px;
+    width: 122px;
+    border: 2px solid none;
+    
+}
+.category_electronics{
+    height: 126px;
+    width: 122px;
+    border: 2px solid none;
+    
+}
+.category_homefurniture{
+    height: 126px;
+    width: 122px;
+    border: 2px solid none;
+   
+}
+.category_appliances{
+    height: 126px;
+    width: 122px;
+    border: 2px solid none;
+    
+}
+.category_travel{
+    height: 126px;
+    width: 122px;
+    border: 2px solid none;
+    
+}
+.category_beauty{
+    height: 126px;
+    width: 145px;
+    border: 2px solid none;
+    
+}
+.category_two_wheeler{
+    height: 126px;
+    width: 122px;
+    border: 2px solid none;
+    
+}
+
+p{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+img{
+    
+    margin-left: 20px;
+}
+
+/* Styling for hero section */
+
+.hero-section{
+    border: 2px solid rgb(246, 9, 9);
+    height: 207px;
+    width: 98%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    margin-left: 1%;
+    margin-top: 5px;
+}
+
+.left-hero-button{
+    background-color: black;
+    height: 100px;
+    width: 50px;
+    align-items: center;
+    margin-right: 0%;
+    border-top-right-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+    
+
+}
+.right-hero-button{
+    background-color: black;
+    height: 100px;
+    width: 50px;
+    align-items: center;
+    margin-left: 95%;
+    border-top-left-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
+    
 }
