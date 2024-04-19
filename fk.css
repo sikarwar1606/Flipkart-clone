@@ -213,6 +213,7 @@ img{
 
 .hero_sign{
     font-size: 20px;
+    background-repeat: no-repeat;
 }
 
 /* Styling for electronics */
@@ -233,4 +234,65 @@ img{
     width: 100%;
     height: 270px;
     border: #212121;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50px;
 }
+
+.best_truewireless_headphone{
+    background-image: url("best\ truewireless\ headphones.webp");
+    align-items: center;
+    justify-content: center;
+    height:250px ;
+    width: 216px;
+    background-repeat: no-repeat;
+    
+}
+.Best_selling_mobile_speaker{
+    background-image: url("best\ truewireless\ headphones.webp");
+    align-items: center;
+    justify-content: center;
+    height:250px ;
+    width: 216px;
+    background-repeat: no-repeat;
+    
+}
+.Fastrack_smartwatches{
+    background-image: url("best\ truewireless\ headphones.webp");
+    align-items: center;
+    justify-content: center;
+    height:250px ;
+    width: 216px;
+    background-repeat: no-repeat;
+    
+}
+.Noise_smartwatches{
+    background-image: url("best\ truewireless\ headphones.webp");
+    align-items: center;
+    justify-content: center;
+    height:250px ;
+    width: 216px;
+    background-repeat: no-repeat;
+    
+}
+.Top_selling_dell_keybords{
+    background-image: url("best\ truewireless\ headphones.webp");
+    align-items: center;
+    justify-content: center;
+    height:250px ;
+    width: 216px;
+    background-repeat: no-repeat;
+    
+}
+.Printers{
+    background-image: url("best\ truewireless\ headphones.webp");
+    align-items: center;
+    justify-content: center;
+    height:250px ;
+    width: 216px;
+    background-repeat: no-repeat;
+    
+}
+
