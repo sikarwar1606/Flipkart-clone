@@ -101,7 +101,7 @@
 .category{
     border: none;
     height: 126px;
-    width: 98%;
+    width: 1503px;
     justify-content: space-evenly;
     align-items: center;
     display: flex;
@@ -182,7 +182,7 @@ img{
 .hero-section{
     border: 2px solid rgb(246, 9, 9);
     height: 207px;
-    width: 95%;
+    width: 1503px;
     justify-content: space-evenly;
     align-items: center;
     display: flex;
@@ -216,79 +216,67 @@ img{
     background-repeat: no-repeat;
 }
 
-/* Styling for electronics */
-.best_of_electronics{
-    font-size: 20px;
-    height: 40px;
-    width: 100%;
-    border: 2px #212121;
-    margin-top: 30px;
-    margin-left: 20px;
+.title_electronics_items{
     display: flex;
-    margin-top: 5px;
-}
-
-/* Styling for Electronics items */
-
-.electronics_item{
-    width: 100%;
-    height: 270px;
-    border: #212121;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    
-}
-
-.images_of_electronic_item{
-    align-items: center;
-    justify-content: center;
+    height: 65px;
+    width: 1503px;
     display: flexbox;
+    align-items: center;
     
 }
 
-.best_truewireless_headphone{
-    height:250px ;
-    width: 216px;
-    background-repeat: no-repeat;
-    border: 2px solid black;
-    text-align: center;
-}
-.Best_selling_mobile_speaker{
-    height:250px ;
-    width: 216px;
-    background-repeat: no-repeat;
-    border: 2px solid black;
-    text-align: center;
-}
-.Fastrack_smartwatches{
-    height:250px ;
-    width: 216px;
-    background-repeat: no-repeat;
-    border: 2px solid black;
-    text-align: center;
-}
-.Noise_smartwatches{
-    height:250px ;
-    width: 216px;
-    background-repeat: no-repeat;
-    border: 2px solid black;
-    text-align: center;
-}
-.Top_selling_dell_keybords{
-    height:250px ;
-    width: 216px;
-    background-repeat: no-repeat;
-    border: 2px solid black;
-    text-align: center;
-}
-.Printers{
-    height:250px ;
-    width: 216px;
-    background-repeat: no-repeat;
-    border: 2px solid black;
-    text-align: center;
+.title_electronics_items_text{
+    display: flex;
+    width: 1185px;
+    height: 28px;
+    align-items: center;
+    justify-content: start;
     
 }
 
+.electro_item_text{
+    font-size: 20px;
+}
+
+.nav_electronics {
+    display: flex;
+    height: 280px;
+    padding-top: 0px;
+    padding-right: 4px;
+    padding-bottom: 12px;
+    
+}
+
+.first_sec {
+    display: flex;    
+    height: 268px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+.e-box{
+    display: flex;
+    height: 252px;
+    width: 200px;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(200, 183, 183);
+}
+
+.img_electronics {
+    display: flexbox;
+    height: 186px;
+    width: 186px;
+    margin-right: 20px;
+    
+}
+
+
+
+
+.null{
+    height: 500px;
+}
