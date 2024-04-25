@@ -98,6 +98,9 @@
 
 
 /* Styling for category */
+
+
+
 .category{
     border: none;
     height: 126px;
@@ -217,6 +220,7 @@ img{
 }
 
 .title_electronics_items{
+    margin-top: 10px;
     display: flex;
     height: 65px;
     width: 1503px;
@@ -236,6 +240,7 @@ img{
 
 .electro_item_text{
     font-size: 20px;
+    margin-left: 30px;
 }
 
 .nav_electronics {
@@ -244,6 +249,7 @@ img{
     padding-top: 0px;
     padding-right: 4px;
     padding-bottom: 12px;
+    background-color: aliceblue;
     
 }
 
@@ -274,7 +280,16 @@ img{
     
 }
 
-
+.img_electronics_earbuds{
+    height: 186px;
+}
+.img_electronics_keyboard{
+    width: 186;
+    margin-left: 0px;
+}
+.img_electronics_spe{
+    height: 186px;
+}
 
 
 .null{
